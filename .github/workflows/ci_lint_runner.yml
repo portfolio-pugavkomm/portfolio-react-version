@@ -1,7 +1,7 @@
 name: "CI runner"
+
 on:
   workflow_call:
-
 
 jobs:
   lint:
