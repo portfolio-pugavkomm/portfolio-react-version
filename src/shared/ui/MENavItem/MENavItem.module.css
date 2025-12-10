@@ -1,0 +1,25 @@
+.me-nav-item {
+  all: initial;
+  font-weight: var(--typography-font-weight-bold);
+  cursor: pointer;
+  color: var(--neutral-white);
+  font-family: var(--default-font-family);
+  font-size: var(--semantic-size-18);
+  line-height: var(--semantic-size-24);
+  padding: var(--size-layout-padding-m);
+  border-radius: var(--size-layout-border-radius-soft);
+  transition: all 0.25s ease-in-out;
+}
+
+.me-nav-item:hover {
+  color: var(--primary-success-200);
+}
+
+.me-nav-item:active {
+  color: var(--primary-success-500);
+  background-color: var(--secondary-1000);
+}
+
+.active {
+  color: var(--primary-success-500);
+}

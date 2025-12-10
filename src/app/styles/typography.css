@@ -1,0 +1,105 @@
+@import './tokens/variables.css';
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../../assets/fonts/Inter-Thin.woff2') format('woff2');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../../assets/fonts/Inter-ExtraLight.woff2') format('woff2');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../../assets/fonts/Inter-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../../assets/fonts/Inter-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../../assets/fonts/Inter-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../../assets/fonts/Inter-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../../assets/fonts/Inter-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../../assets/fonts/Inter-ExtraBold.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../../assets/fonts/Inter-Black.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Bakbak One';
+  src: url('../../assets/fonts/BakbakOne-Regular.ttf') format('truetype');
+  font-weight: 1000;
+}
+
+:root {
+  --default-font-family: Inter, sans-serif;
+}
+
+h1 {
+  font-family: var(--default-font-family);
+  font-weight: var(--typography-font-weight-semi-bold);
+  font-size: var(--typography-font-size-h1);
+  line-height: var(--typography-line-height-h1);
+}
+
+h2 {
+  font-family: var(--default-font-family);
+  font-weight: var(--typography-font-weight-semi-bold);
+  font-size: var(--typography-font-size-h2);
+  line-height: var(--typography-line-height-h2);
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  text-align: left;
+}

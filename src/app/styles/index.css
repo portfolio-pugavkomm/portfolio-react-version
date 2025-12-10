@@ -1,0 +1,18 @@
+@import './typography.css';
+@import './reset.css';
+@import './tokens/variables.css';
+@import './z-index.css';
+@import './animations.css';
+
+:root {
+  --white: #fff;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--neutral-white);
+  font-family: var(--default-font-family), sans-serif;
+  font-weight: var(--typography-font-weight-regular);
+  font-size: var(--semantic-size-18);
+  line-height: var(--semantic-size-24);
+}

@@ -1,0 +1,26 @@
+@import '@/app/styles/animations.css';
+
+.activityIndicator {
+  color: var(--primary-success-500);
+  animation: spring-spin 2s ease-in-out infinite;
+}
+
+.small {
+  height: 16px;
+  width: 16px;
+}
+
+.medium {
+  height: 24px;
+  width: 24px;
+}
+
+.huge {
+  height: 32px;
+  width: 32px;
+}
+
+.extra {
+  height: 64px;
+  width: 64px;
+}
