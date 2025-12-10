@@ -1,0 +1,51 @@
+.meTag {
+  display: flex;
+  justify-content: center;
+  padding: var(--size-layout-padding-s) var(--size-layout-padding-m);
+  border-width: var(--size-layout-border-width-thin);
+  border-style: solid;
+  width: fit-content;
+  border-radius: var(--size-layout-border-radius-soft);
+  text-align: center;
+  align-items: center;
+}
+
+.primary {
+  color: var(--primary-success-500);
+  border-color: var(--primary-success-500);
+}
+
+.secondary {
+  color: var(--secondary-500);
+  border-color: var(--secondary-500);
+}
+
+.info {
+  color: var(--info-500);
+  border-color: var(--info-500);
+}
+
+.danger {
+  color: var(--danger-500);
+  border-color: var(--danger-500);
+}
+
+.xxl {
+  font-size: var(--semantic-size-18);
+  line-height: var(--semantic-size-24);
+}
+
+.xl {
+  font-size: var(--semantic-size-16);
+  line-height: var(--semantic-size-20);
+}
+
+.m {
+  font-size: var(--semantic-size-14);
+  line-height: var(--semantic-size-18);
+}
+
+.s {
+  font-size: var(--semantic-size-12);
+  line-height: var(--semantic-size-14);
+}

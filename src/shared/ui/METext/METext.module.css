@@ -1,0 +1,55 @@
+.thin {
+  font-weight: var(--typography-font-weight-thin);
+}
+
+.extra-light {
+  font-weight: var(--typography-font-weight-extra-light);
+}
+
+.light {
+  font-weight: var(--typography-font-weight-light);
+}
+
+.regular {
+  font-weight: var(--typography-font-weight-regular);
+}
+
+.medium {
+  font-weight: var(--typography-font-weight-medium);
+}
+
+.semi-bold {
+  font-weight: var(--typography-font-weight-semi-bold);
+}
+
+.bold {
+  font-weight: var(--typography-font-weight-bold);
+}
+
+.extra-bold {
+  font-weight: var(--typography-font-weight-extra-bold);
+}
+
+.black {
+  font-weight: var(--typography-font-weight-black);
+}
+
+.s {
+  font-size: var(--semantic-size-12);
+  line-height: var(--semantic-size-14);
+}
+
+.m {
+  font-size: var(--semantic-size-14);
+  line-height: var(--semantic-size-18);
+}
+
+.xl {
+  font-size: var(--semantic-size-16);
+  line-height: var(--semantic-size-20);
+}
+
+.xxl {
+  font-size: var(--semantic-size-18);
+  line-height: var(--semantic-size-24);
+}

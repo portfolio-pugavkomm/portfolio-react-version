@@ -1,0 +1,126 @@
+@import '@/app/styles/animations.css';
+
+.btn {
+  all: initial;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: var(--size-layout-gap-s);
+  box-sizing: border-box;
+  text-align: center;
+  padding: 0 var(--size-layout-padding-x);
+  border-radius: var(--size-layout-border-radius-soft);
+  cursor: pointer;
+  transition: background-color 0.125s ease-in-out;
+  font-family: Inter, sans-serif;
+  font-weight: var(--typography-font-weight-semi-bold);
+  font-size: var(--semantic-size-18);
+  line-height: var(--semantic-size-24);
+}
+
+.btn:disabled {
+  cursor: not-allowed;
+}
+
+/*Variants*/
+/*Primary*/
+.btn--primary {
+  background-color: var(--primary-success-500);
+  color: var(--white);
+}
+
+.btn--primary:hover {
+  background-color: var(--primary-success-400);
+}
+
+.btn--primary:active {
+  background-color: var(--primary-success-700);
+}
+
+.btn--primary:disabled {
+  background-color: var(--primary-success-200);
+}
+
+/*Secondary*/
+
+.btn--secondary {
+  background-color: transparent;
+  border-color: var(--primary-success-500);
+  border-width: var(--size-layout-border-width-thin);
+  border-style: solid;
+  color: var(--primary-success-500);
+}
+
+.btn--secondary:hover {
+  background-color: var(--secondary-200);
+}
+
+.btn--secondary:active {
+  border-color: var(--primary-success-700);
+  color: var(--primary-success-700);
+}
+
+.btn--secondary:disabled {
+  color: var(--neutral-white);
+  background-color: var(--secondary-200);
+  border-color: transparent;
+}
+
+/*Canceled*/
+.btn--canceled {
+  color: var(--danger-500);
+}
+
+.btn--canceled:hover:not(:disabled) {
+  color: var(--danger-400);
+}
+
+.btn--canceled:active:not(:disabled) {
+  color: var(--danger-700);
+}
+
+/*Linked*/
+.btn--linked {
+  color: var(--primary-success-500);
+}
+
+.btn--linked:hover:not(:disabled) {
+  color: var(--primary-success-400);
+}
+
+.btn--linked:active:not(:disabled) {
+  color: var(--primary-success-700);
+}
+
+/*Sizes*/
+/*Huge*/
+.btn--huge {
+  height: var(--size-height-xl);
+  min-height: var(--size-height-xl);
+  max-height: var(--size-height-xl);
+}
+
+/*Medium*/
+.btn--medium {
+  height: var(--size-height-x);
+  min-height: var(--size-height-x);
+  max-height: var(--size-height-x);
+}
+
+/*Small*/
+
+.btn--small {
+  height: var(--size-height-m);
+  min-height: var(--size-height-m);
+  max-height: var(--size-height-m);
+}
+
+/*Loader*/
+.btnLoadingIndicator {
+  width: 24px;
+  min-width: 24px;
+  height: 24px;
+  min-height: 24px;
+  animation: spring-spin 2s ease-in-out infinite;
+}
