@@ -1,48 +1,49 @@
+@import '@/app/styles/animations.css';
 .flexContainer {
-  display: flex;
-  flex: 1;
+    flex: 1;
+    display: flex;
 }
 
 .gap-s {
-  gap: var(--size-layout-gap-s);
+    gap: var(--size-layout-gap-s);
 }
 
 .gap-m {
-  gap: var(--size-layout-gap-m);
+    gap: var(--size-layout-gap-m);
 }
 
 .gap-x {
-  gap: var(--size-layout-gap-x);
+    gap: var(--size-layout-gap-x);
 }
 
 .gap-xl {
-  gap: var(--size-layout-gap-xl);
+    gap: var(--size-layout-gap-xl);
 }
 
 .gap-2xl {
-  gap: var(--size-layout-gap-2xl);
+    gap: var(--size-layout-gap-2xl);
 }
 
 .gap-3xl {
-  gap: var(--size-layout-gap-3xl);
+    gap: var(--size-layout-gap-3xl);
 }
 
 .gap-4xl {
-  gap: var(--size-layout-gap-4xl);
+    gap: var(--size-layout-gap-4xl);
 }
 
 .col {
-  flex-direction: column;
+    flex-direction: column;
 }
 
 .row {
-  flex-direction: row;
+    flex-direction: row;
 }
 
 .col-r {
-  flex-direction: column-reverse;
+    flex-direction: column-reverse;
 }
 
 .row-r {
-  flex-direction: row-reverse;
+    flex-direction: row-reverse;
 }

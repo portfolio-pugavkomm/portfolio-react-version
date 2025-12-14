@@ -26,8 +26,9 @@
     "react-redux": "^9.2.0",
     "react-router": "^7.10.1"
   },
-  "devDependencies": {
+  "devDependencie": {
     "@eslint/js": "^9.39.1",
+    "@faker-js/faker": "^10.1.0",
     "@tanstack/react-query-devtools": "^5.91.1",
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.0",

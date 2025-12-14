@@ -9,3 +9,24 @@
     transform: rotate(360deg);
   }
 }
+
+.shimmer {
+
+	background: linear-gradient(
+		90deg,
+		var(--background) 30%,
+		var(--primary-success-800) 50%,
+		var(--primary-success-1000) 10%
+	);
+	background-size: 400%;
+	animation: shimmer .5s infinite ease-in-out;
+}
+
+@keyframes shimmer {
+	0% {
+		background-position: 100% 100%;
+	}
+	100% {
+		background-position: 0 50%;
+	}
+}
