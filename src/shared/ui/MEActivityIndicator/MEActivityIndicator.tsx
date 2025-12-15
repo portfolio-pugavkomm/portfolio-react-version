@@ -1,5 +1,5 @@
 import clsx from 'clsx';
-import * as React from 'react';
+import type { FC } from 'react';
 
 import LoadingIcon from '@/assets/icons/loadingicn.svg?react';
 
@@ -12,10 +12,7 @@ export interface MEActivityIndicatorProps {
   size?: MEActivityIndicatorSize;
 }
 
-export const MEActivityIndicator: React.FC<MEActivityIndicatorProps> = ({
-  color,
-  size = 'medium',
-}) => (
+export const MEActivityIndicator: FC<MEActivityIndicatorProps> = ({ color, size = 'medium' }) => (
   <LoadingIcon
     title={'Loading'}
     fill="currentColor"

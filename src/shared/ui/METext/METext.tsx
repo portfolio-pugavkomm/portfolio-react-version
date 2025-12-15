@@ -1,6 +1,5 @@
 import clsx from 'clsx';
-import { type HTMLAttributes } from 'react';
-import * as React from 'react';
+import { type FC, type HTMLAttributes } from 'react';
 
 import styles from './METext.module.css';
 
@@ -22,7 +21,7 @@ export interface METextProps extends HTMLAttributes<HTMLParagraphElement> {
   textSize?: TextSize;
 }
 
-export const METext: React.FC<METextProps> = ({
+export const METext: FC<METextProps> = ({
   textWeight = 'regular',
   textSize = 'xxl',
   children,

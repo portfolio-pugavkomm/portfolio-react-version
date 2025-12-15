@@ -1,21 +1,18 @@
-import { queryClient } from '@shared/api';
 import { QueryClientProvider } from '@tanstack/react-query';
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
-import { type ReactNode } from 'react';
-import * as React from 'react';
+import { type FC } from 'react';
 import { Provider as ReduxProvider } from 'react-redux';
+import { RouterProvider } from 'react-router';
 
-import { store } from '../store.ts';
+import { queryClient } from './queryClient';
+import { router } from './router';
+import { store } from './sotre';
 
-export interface ProvidersProps {
-  children: ReactNode;
-}
-
-export const Providers: React.FC<ProvidersProps> = ({ children }) => {
+export const Providers: FC = () => {
   return (
     <ReduxProvider store={store}>
       <QueryClientProvider client={queryClient}>
-        {children}
+        <RouterProvider router={router} />
         <ReactQueryDevtools initialIsOpen={false} />
       </QueryClientProvider>
     </ReduxProvider>
