@@ -1,6 +1,5 @@
 import clsx from 'clsx';
-import * as React from 'react';
-import { type ButtonHTMLAttributes } from 'react';
+import { type ButtonHTMLAttributes, type FC } from 'react';
 
 import LoadingIcon from '@/assets/icons/loadingicn.svg?react';
 
@@ -15,7 +14,7 @@ export interface MEButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   loading?: boolean;
 }
 
-export const MEButton: React.FC<MEButtonProps> = ({
+export const MEButton: FC<MEButtonProps> = ({
   variant,
   size = 'medium',
   children,

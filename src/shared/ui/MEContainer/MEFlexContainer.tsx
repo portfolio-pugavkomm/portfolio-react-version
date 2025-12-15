@@ -1,6 +1,5 @@
 import clsx from 'clsx';
-import * as React from 'react';
-import { type HTMLAttributes } from 'react';
+import { type FC, type HTMLAttributes } from 'react';
 
 import styles from './MEFlexContainer.module.css';
 
@@ -14,7 +13,7 @@ export interface MEFlexContainerProps extends HTMLAttributes<HTMLDivElement> {
   flexWrap?: boolean;
 }
 
-export const MEFlexContainer: React.FC<MEFlexContainerProps> = ({
+export const MEFlexContainer: FC<MEFlexContainerProps> = ({
   direction = 'col',
   gap = 's',
   children,
